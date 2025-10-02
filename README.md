@@ -1,5 +1,6 @@
-# database-automation
-Pipeline to deploy a Database Server
+
+(Pipeline to deploy a Database Server)
+
 
 # How to Run Your GitHub Actions Workflow
 ## 1. Create the Workflow File
