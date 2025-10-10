@@ -4,11 +4,6 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,7 +15,7 @@ on:
       # This is an array in yaml
       # The single quotes are not mandatory
       # Without the single quotes the values of this array are interpreted as a string
-      options :
+      options:
         - 'SqlServer'
         - 'Oracle'
         - 'Postgres'
