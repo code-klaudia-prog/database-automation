@@ -10,6 +10,11 @@ on:
     inputs:
       server_name:
         required: true
+      environment:
+        type: environment        
+      almoco:
+        type: boolean
+        description: 'Francesinha hoje?'
       server_type:
         required: true
         default: 'SqlServer'
