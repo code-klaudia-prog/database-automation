@@ -56,6 +56,7 @@ jobs:
           pwd
           ls -all
           sed 's/password=/password=${{ secrets.DBUSER }}/' secrets.yml
+          sed 's/password=/password=${{ secrets.DBUSER }}/' dotfilesecret.yml.yml
           cat secrets.yml
           python exemplo.py ping ${{ github.event.inputs.server_name }} ping ${{ github.event.inputs.server_type }}
           ls -l
