@@ -17,11 +17,14 @@ on:
       required: true
       default: 'SqlServer'
       type: choice
+      # This is an array in yaml
+      # The single quotes are not mandatory
+      # Without the single quotes the values of this array are interpreted as a string
       options :
-        - SqlServer
-        - Oracle
-        - Postgres
-        - MySql
+        - 'SqlServer'
+        - 'Oracle'
+        - 'Postgres'
+        - 'MySql'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
