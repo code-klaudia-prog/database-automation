@@ -52,6 +52,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          python --version
+          echo "O nome do servidor : ping ${{ github.event.inputs.server_name }}"
+          pwd
+          ls -all
+          python exemplo.py ping ${{ github.event.inputs.server_name }} ping ${{ github.event.inputs.server_type }}
           ls -l
