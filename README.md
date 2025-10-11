@@ -1,4 +1,4 @@
-![Video Tutorials](https://www.youtube.com/playlist?list=PLGTmxtJmro0qkaUSx4dXC-YODw9jCJ_Uu)
+Video Tutorials [https://www.youtube.com/playlist?list=PLGTmxtJmro0qkaUSx4dXC-YODw9jCJ_Uu]
 
 # How to Run a Database Server with a GitHub Actions Workflow
 ## 1. Create the Workflow File
