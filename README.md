@@ -1,8 +1,6 @@
+![Video Tutorials](https://www.youtube.com/playlist?list=PLGTmxtJmro0qkaUSx4dXC-YODw9jCJ_Uu)
 
-(Pipeline to deploy a Database Server)
-
-
-# How to Run Your GitHub Actions Workflow
+# How to Run a Database Server with a GitHub Actions Workflow
 ## 1. Create the Workflow File
 
 In the root directory of your GitHub repository, create a folder named .github/.
